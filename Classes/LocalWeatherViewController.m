@@ -3,7 +3,7 @@
 //  LocalWeather
 //
 //  Created by Matt Tuzzolo on 8/30/10.
-//  Copyright Regulars LLC 2010. All rights reserved.
+//  Copyright iCodeBlog LLC 2010. All rights reserved.
 //
 
 #import "LocalWeatherViewController.h"
