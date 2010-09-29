@@ -14,6 +14,7 @@
 
 @synthesize currentTempLabel, highTempLabel, lowTempLabel, conditionsLabel, cityLabel;
 @synthesize conditionsImageView;
+@synthesize conditionsImage;
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -39,23 +40,34 @@
     }
 }
 
+// This will run in the background
 - (void)showWeatherFor:(NSString *)query
 {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     
     ICB_WeatherConditions *weather = [[ICB_WeatherConditions alloc] initWithQuery:query];
     
+    self.conditionsImage = [[UIImage imageWithData:[NSData dataWithContentsOfURL:weather.conditionImageURL]] retain];
+
+    [self performSelectorOnMainThread:@selector(updateUI:) withObject:weather waitUntilDone:NO];
+    
+    
+    [pool release];
+}
+
+// This happens in the main thread
+- (void)updateUI:(ICB_WeatherConditions *)weather
+{
+    self.conditionsImageView.image = self.conditionsImage;
+    [self.conditionsImage release];
+    
     [self.currentTempLabel setText:[NSString stringWithFormat:@"%d", weather.currentTemp]];
     [self.highTempLabel setText:[NSString stringWithFormat:@"%d", weather.highTemp]];
     [self.lowTempLabel setText:[NSString stringWithFormat:@"%d", weather.lowTemp]];
     [self.conditionsLabel setText:weather.condition];
     [self.cityLabel setText:weather.location];
-    
-    self.conditionsImageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:weather.conditionImageURL]];
-    
+
     [weather release];
-    
-    [pool release];
 }
 
 #pragma mark MKReverseGeocoder Delegate Methods

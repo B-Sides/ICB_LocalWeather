@@ -12,10 +12,15 @@
 @interface LocalWeatherViewController : UIViewController <MKReverseGeocoderDelegate> {
     IBOutlet UILabel *currentTempLabel, *highTempLabel, *lowTempLabel, *conditionsLabel, *cityLabel;
     IBOutlet UIImageView *conditionsImageView;
+    UIImage *conditionsImage;
 }
 
 @property (nonatomic,retain) IBOutlet UILabel *currentTempLabel, *highTempLabel, *lowTempLabel, *conditionsLabel, *cityLabel;
 @property (nonatomic,retain) IBOutlet UIImageView *conditionsImageView;
+@property (nonatomic,retain) UIImage *conditionsImage;
+
+- (void)showWeatherFor:(NSString *)query;
+- (void)updateUI:(ICB_WeatherConditions *)weather;
 
 @end
 
