@@ -23,15 +23,15 @@
 	28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1466, 860}}";
-			sepNavSelRange = "{728, 93}";
-			sepNavVisRange = "{0, 828}";
+			sepNavSelRange = "{862, 0}";
+			sepNavVisRange = "{0, 862}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* LocalWeatherViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1466, 1442}}";
 			sepNavSelRange = "{646, 0}";
-			sepNavVisRange = "{1263, 2032}";
+			sepNavVisRange = "{1257, 2038}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -234,6 +234,15 @@
 			8FEA44371253E4E0002D85A5 /* PBXTextBookmark */ = 8FEA44371253E4E0002D85A5 /* PBXTextBookmark */;
 			8FEA44381253E4E0002D85A5 /* PBXTextBookmark */ = 8FEA44381253E4E0002D85A5 /* PBXTextBookmark */;
 			8FEA44391253E4E0002D85A5 /* PBXTextBookmark */ = 8FEA44391253E4E0002D85A5 /* PBXTextBookmark */;
+			8FEA443E1253F84E002D85A5 /* PBXTextBookmark */ = 8FEA443E1253F84E002D85A5 /* PBXTextBookmark */;
+			8FEA443F1253F84E002D85A5 /* PBXTextBookmark */ = 8FEA443F1253F84E002D85A5 /* PBXTextBookmark */;
+			8FEA44401253F84E002D85A5 /* XCBuildMessageTextBookmark */ = 8FEA44401253F84E002D85A5 /* XCBuildMessageTextBookmark */;
+			8FEA44411253F84E002D85A5 /* PBXTextBookmark */ = 8FEA44411253F84E002D85A5 /* PBXTextBookmark */;
+			8FEA44431253F850002D85A5 /* XCBuildMessageTextBookmark */ = 8FEA44431253F850002D85A5 /* XCBuildMessageTextBookmark */;
+			8FEA44441253F850002D85A5 /* PBXTextBookmark */ = 8FEA44441253F850002D85A5 /* PBXTextBookmark */;
+			8FEA44451253F860002D85A5 /* PBXTextBookmark */ = 8FEA44451253F860002D85A5 /* PBXTextBookmark */;
+			8FEA44461253F860002D85A5 /* PBXTextBookmark */ = 8FEA44461253F860002D85A5 /* PBXTextBookmark */;
+			8FEA44471253F860002D85A5 /* PBXTextBookmark */ = 8FEA44471253F860002D85A5 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8FDD16E3122C2C7900AA6957 /* Source Control */;
 		userBuildSettings = {
@@ -258,7 +267,7 @@
 	};
 	8F293A0B1252933E0062F427 /* ICB_WeatherConditions.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1466, 860}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1466, 883}}";
 			sepNavSelRange = "{546, 0}";
 			sepNavVisRange = "{0, 551}";
 		};
@@ -266,8 +275,8 @@
 	8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1811, 860}}";
-			sepNavSelRange = "{0, 1997}";
-			sepNavVisRange = "{0, 1998}";
+			sepNavSelRange = "{548, 36}";
+			sepNavVisRange = "{0, 2001}";
 		};
 	};
 	8F293AB51252B8EA0062F427 /* PBXTextBookmark */ = {
@@ -275,7 +284,7 @@
 		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
 		name = "ICB_WeatherConditions.m: 29";
 		rLen = 0;
-		rLoc = 1580;
+		rLoc = 1583;
 		rType = 0;
 		vrLen = 1885;
 		vrLoc = 0;
@@ -295,7 +304,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 18";
 		rLen = 0;
-		rLoc = 624;
+		rLoc = 658;
 		rType = 0;
 		vrLen = 670;
 		vrLoc = 0;
@@ -658,7 +667,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 18";
 		rLen = 0;
-		rLoc = 624;
+		rLoc = 658;
 		rType = 0;
 		vrLen = 670;
 		vrLoc = 0;
@@ -668,7 +677,7 @@
 		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
 		name = "ICB_WeatherConditions.m: 29";
 		rLen = 0;
-		rLoc = 1580;
+		rLoc = 1583;
 		rType = 0;
 		vrLen = 1885;
 		vrLoc = 0;
@@ -727,7 +736,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 2";
-		rLen = 823;
+		rLen = 857;
 		rLoc = 3;
 		rType = 0;
 		vrLen = 649;
@@ -737,7 +746,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 1";
-		rLen = 826;
+		rLen = 860;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 649;
@@ -747,7 +756,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 1";
-		rLen = 826;
+		rLen = 860;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 649;
@@ -827,7 +836,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 1";
-		rLen = 826;
+		rLen = 860;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 649;
@@ -838,7 +847,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 21";
 		rLen = 0;
-		rLoc = 821;
+		rLoc = 855;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 0;
@@ -848,7 +857,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 21";
 		rLen = 0;
-		rLoc = 821;
+		rLoc = 855;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 0;
@@ -948,7 +957,7 @@
 		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
 		name = "ICB_WeatherConditions.m: 29";
 		rLen = 0;
-		rLoc = 1587;
+		rLoc = 1590;
 		rType = 0;
 		vrLen = 1885;
 		vrLoc = 0;
@@ -958,7 +967,7 @@
 		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
 		name = "ICB_WeatherConditions.m: 29";
 		rLen = 0;
-		rLoc = 1587;
+		rLoc = 1590;
 		rType = 0;
 		vrLen = 1885;
 		vrLoc = 0;
@@ -968,7 +977,7 @@
 		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
 		name = "ICB_WeatherConditions.m: 29";
 		rLen = 0;
-		rLoc = 1587;
+		rLoc = 1590;
 		rType = 0;
 		vrLen = 1885;
 		vrLoc = 0;
@@ -978,7 +987,7 @@
 		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
 		name = "ICB_WeatherConditions.m: 30";
 		rLen = 0;
-		rLoc = 1841;
+		rLoc = 1844;
 		rType = 0;
 		vrLen = 1885;
 		vrLoc = 0;
@@ -1008,7 +1017,7 @@
 		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
 		name = "ICB_WeatherConditions.m: 30";
 		rLen = 0;
-		rLoc = 1841;
+		rLoc = 1844;
 		rType = 0;
 		vrLen = 1885;
 		vrLoc = 0;
@@ -1048,7 +1057,7 @@
 		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
 		name = "ICB_WeatherConditions.m: 35";
 		rLen = 0;
-		rLoc = 1882;
+		rLoc = 1885;
 		rType = 0;
 		vrLen = 1998;
 		vrLoc = 0;
@@ -1058,7 +1067,7 @@
 		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
 		name = "ICB_WeatherConditions.m: 34";
 		rLen = 0;
-		rLoc = 1864;
+		rLoc = 1867;
 		rType = 0;
 		vrLen = 1998;
 		vrLoc = 0;
@@ -1095,7 +1104,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 21";
 		rLen = 0;
-		rLoc = 821;
+		rLoc = 855;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 0;
@@ -1104,7 +1113,7 @@
 		isa = PBXTextBookmark;
 		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
 		name = "ICB_WeatherConditions.m: 1";
-		rLen = 1997;
+		rLen = 2000;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 1998;
@@ -1135,7 +1144,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 21";
 		rLen = 0;
-		rLoc = 821;
+		rLoc = 855;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 0;
@@ -1145,7 +1154,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 22";
 		rLen = 51;
-		rLoc = 770;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 786;
 		vrLoc = 0;
@@ -1165,7 +1174,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
 		name = "LocalWeatherViewController.h: 22";
 		rLen = 93;
-		rLoc = 728;
+		rLoc = 762;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 0;
@@ -1178,6 +1187,94 @@
 		rLoc = 546;
 		rType = 0;
 		vrLen = 551;
+		vrLoc = 0;
+	};
+	8FEA443E1253F84E002D85A5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8F293A0B1252933E0062F427 /* ICB_WeatherConditions.h */;
+		name = "ICB_WeatherConditions.h: 20";
+		rLen = 0;
+		rLoc = 546;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 0;
+	};
+	8FEA443F1253F84E002D85A5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
+		name = "ICB_WeatherConditions.m: 26";
+		rLen = 0;
+		rLoc = 1307;
+		rType = 0;
+		vrLen = 2001;
+		vrLoc = 0;
+	};
+	8FEA44401253F84E002D85A5 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ')' before 'ICB_WeatherConditions'";
+		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 23;
+		rType = 1;
+	};
+	8FEA44411253F84E002D85A5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
+		name = "LocalWeatherViewController.h: 24";
+		rLen = 0;
+		rLoc = 804;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 0;
+	};
+	8FEA44431253F850002D85A5 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ')' before 'ICB_WeatherConditions'";
+		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 23;
+		rType = 1;
+	};
+	8FEA44441253F850002D85A5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
+		name = "LocalWeatherViewController.h: 11";
+		rLen = 0;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 3;
+	};
+	8FEA44451253F860002D85A5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* LocalWeatherViewController.h */;
+		name = "LocalWeatherViewController.h: 28";
+		rLen = 0;
+		rLoc = 862;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 0;
+	};
+	8FEA44461253F860002D85A5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* LocalWeatherViewController.m */;
+		name = "LocalWeatherViewController.m: 24";
+		rLen = 0;
+		rLoc = 646;
+		rType = 0;
+		vrLen = 2038;
+		vrLoc = 1257;
+	};
+	8FEA44471253F860002D85A5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8F293A0C1252933E0062F427 /* ICB_WeatherConditions.m */;
+		name = "ICB_WeatherConditions.m: 20";
+		rLen = 36;
+		rLoc = 548;
+		rType = 0;
+		vrLen = 2001;
 		vrLoc = 0;
 	};
 }

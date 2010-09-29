@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "MapKit/MapKit.h"
+#import "ICB_WeatherConditions.h"
 
 @interface LocalWeatherViewController : UIViewController <MKReverseGeocoderDelegate> {
     IBOutlet UILabel *currentTempLabel, *highTempLabel, *lowTempLabel, *conditionsLabel, *cityLabel;

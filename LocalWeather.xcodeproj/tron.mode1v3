@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -277,7 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -313,12 +311,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ICB_WeatherConditions.h</string>
+								<string>ICB_WeatherConditions.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ICB_WeatherConditions.h</string>
+										<string>ICB_WeatherConditions.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8FEA44391253E4E0002D85A5</string>
+										<string>8FEA44471253F860002D85A5</string>
 										<key>history</key>
 										<array>
 											<string>8FBC90CB122C658000C12E27</string>
@@ -351,10 +351,10 @@
 											<string>8F875A0612516BD800B842AF</string>
 											<string>8F293868125251D70062F427</string>
 											<string>8FEA44181253E2D7002D85A5</string>
-											<string>8FEA44321253E4A8002D85A5</string>
-											<string>8FEA44371253E4E0002D85A5</string>
-											<string>8FEA44381253E4E0002D85A5</string>
-											<string>8FEA44341253E4BC002D85A5</string>
+											<string>8FEA443E1253F84E002D85A5</string>
+											<string>8FEA44451253F860002D85A5</string>
+											<string>8FEA44461253F860002D85A5</string>
+											<string>8FEA443F1253F84E002D85A5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -552,13 +552,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>8FEA44421253F84F002D85A5</string>
 		<string>8FEA442A1253E330002D85A5</string>
-		<string>8FEA442F1253E33D002D85A5</string>
 		<string>8FEA43EB1253E1C6002D85A5</string>
 		<string>8FEA43E31253E19D002D85A5</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>8FDD16E1122C2C7900AA6957</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/tron/Desktop/ELC/ICB_LocalWeather/LocalWeather.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -578,12 +578,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>LocalWeatherViewController.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -933,7 +935,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
