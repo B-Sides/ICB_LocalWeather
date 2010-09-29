@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MapKit/MapKit.h"
 
-@interface LocalWeatherViewController : UIViewController {
-
+@interface LocalWeatherViewController : UIViewController <NSXMLParserDelegate, MKReverseGeocoderDelegate> {
+    IBOutlet UILabel *currentTempLabel, *highTempLabel, *lowTempLabel, *conditionsLabel, *cityLabel;
+    IBOutlet UIImageView *conditionsImageView;
 }
+
+@property (nonatomic,retain) IBOutlet UILabel *currentTempLabel, *highTempLabel, *lowTempLabel, *conditionsLabel, *cityLabel;
+@property (nonatomic,retain) IBOutlet UIImageView *conditionsImageView;
 
 @end
 
